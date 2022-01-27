@@ -1,3 +1,9 @@
+% Copyright (c) 2021, SCALE Lab, Brown University
+% All rights reserved.
+
+% This source code is licensed under the license found in the
+% LICENSE file in the root directory of this source tree. 
+
 function [transient_state] = extract_transients(data, change_ind_trans)
 % Extracts transient traces from data by for all indices
 % :inputs:
