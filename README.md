@@ -54,5 +54,5 @@ Video demo showing full flow, including how to add and remove transient traces.
 MATLAB R2019a or later is required, as some functions such as `writematrix` are introduced in this version.
 
 ## License
-All the source codes in this folder are licensed under the following [LICENSE](https://github.com/scale-lab/BIPEM/blob/master/LICENSE)
+All the source codes in this folder are licensed under the following [LICENSE](https://github.com/scale-lab/BIPEM/blob/master/LICENSE).
 
