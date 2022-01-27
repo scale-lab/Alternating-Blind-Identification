@@ -1,3 +1,8 @@
+% Copyright (c) 2021, SCALE Lab, Brown University
+% All rights reserved.
+
+% This source code is licensed under the license found in the
+% LICENSE file in the root directory of this source tree. 
 
 function [change_ind_trans] = transients_get_indices(data, cluster, gaus_window, filter_thresh, trans_offset_l, trans_offset_r)
 % transient function to find indices of transient states
