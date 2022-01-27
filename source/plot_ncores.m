@@ -1,3 +1,9 @@
+% Copyright (c) 2021, SCALE Lab, Brown University
+% All rights reserved.
+
+% This source code is licensed under the license found in the
+% LICENSE file in the root directory of this source tree. 
+
 
 function f = plot_ncores(data, num_cores, p)
     % Plot thermal per cluster, total power, and power per cluster in three
