@@ -1,6 +1,8 @@
-% Sherief Reda (Brown University) and Adel Belouchrani (ENP)
-% "Blind Identification of Power Sources in Processors", in IEEE/ACM Design, Automation & Test in Europe, 2017.
-% sherief_reda@Brown.edu and adel.belouchrani@enp.edu.dz
+% Copyright (c) 2021, SCALE Lab, Brown University
+% All rights reserved.
+
+% This source code is licensed under the license found in the
+% LICENSE file in the root directory of this source tree. 
 
 function p=invert_t2p(M, T, powerm, REG)
 % per-core identification
@@ -16,8 +18,6 @@ function p=invert_t2p(M, T, powerm, REG)
 % Outputs:
 %  p: power matrix
 %
-% Authors:  S.Reda and A.Belouchrani
-% Supported by US NAS Grant 2016, Brown
 %
     N=size(T, 1);
     H = 2*(M')*M;        
