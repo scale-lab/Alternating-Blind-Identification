@@ -1,15 +1,14 @@
-% Sherief Reda (Brown University) and Adel Belouchrani (ENP)
-% "Blind Identification of Power Sources in Processors", in IEEE/ACM Design, Automation & Test in Europe, 2017.
-% sherief_reda@Brown.edu and adel.belouchrani@enp.edu.dz
+% Copyright (c) 2021, SCALE Lab, Brown University
+% All rights reserved.
+
+% This source code is licensed under the license found in the
+% LICENSE file in the root directory of this source tree. 
 
 function [A]=find_A(pre_fname, num_traces, T_amb,num_cores)
 % Estimates natural response matrix
 %
 % This function estimates the natural response matrix A in T[k]=AT[k-1]+P[k} 
-%
-% Authors:  S.Reda and A.Belouchrani
-% Supported by US NAS Grant 2016, Brown
-%
+
     Tk_1 = [];    
     Tk = [];
 
