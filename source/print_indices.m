@@ -1,3 +1,8 @@
+% Copyright (c) 2021, SCALE Lab, Brown University
+% All rights reserved.
+
+% This source code is licensed under the license found in the
+% LICENSE file in the root directory of this source tree. 
 
 function ind_str = print_indices(indices)
 % Displays transient states in a human readable format
