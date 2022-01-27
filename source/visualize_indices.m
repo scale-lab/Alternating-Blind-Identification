@@ -1,3 +1,9 @@
+% Copyright (c) 2021, SCALE Lab, Brown University
+% All rights reserved.
+
+% This source code is licensed under the license found in the
+% LICENSE file in the root directory of this source tree. 
+
 function visualize_indices(indices, data, cluster)
 % visualize the data and indices of interest points (steady/transient)
 % :params:
