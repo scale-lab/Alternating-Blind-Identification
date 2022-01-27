@@ -1,6 +1,9 @@
-%
-%
-%
+% Copyright (c) 2021, SCALE Lab, Brown University
+% All rights reserved.
+
+% This source code is licensed under the license found in the
+% LICENSE file in the root directory of this source tree. 
+
 
 % User input file. Column 1 contains power data, the remaining columns
 % contains thermal data for each cluster.
