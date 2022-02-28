@@ -1,6 +1,6 @@
-# BIPEM (Blind Identification of Power Sources Using Expectation-Maximization)
+# Alternating Blind Identification of Power Sources
 
-BIPEM is a tool that allows to blindly estimate the power at the core level using Expectation-Maximization. The tool is a plug and play, since it requires only one data file given as input. The data file is going to be used for training to identify two modeling matrices, __A__ and __B__.  
+Alternating BPI is a tool that allows to blindly estimate the power at the core level using Expectation-Maximization. The tool is a plug and play, since it requires only one data file given as input. The data file is going to be used for training to identify two modeling matrices, __A__ and __B__.  
 
 Data for training is collected by capturing thermal and power measurements of different cores through sys nodes while stressing the different cores. The stress applied to each core should have various patterns and run at different frequencies. For example, stressing clusters individually versus combined. The more combinations, the better the results. The user must then provide power and thermal data per cluster formatted into one CSV file with power in the first column, then thermal data per cluster for the remaining columns. For example, given 4 cores (clusters), the .CSV should take this form (only numbers, first row labels for reference):
 Power  | Core 1 thermals | Core 2 thermals | Core 3 thermals | Core 4 thermals
